@@ -1,0 +1,24 @@
+header{
+    background-color: red;
+    border: solid 5px black;
+}
+h1{
+    background-color: blue;
+    margin: 10px;
+    border: solid 5px black;
+}
+
+h2{
+    background-color: green;
+    margin: 10px;
+    border: solid 5px black;
+    width: 80%;
+    float: left;
+}
+aside{
+    background-color: yellow;
+    margin: 10px;
+    width: 15%;
+    border: solid 5px black;
+    float: right;
+}
