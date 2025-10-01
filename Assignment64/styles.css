@@ -1,3 +1,4 @@
+/* ======== BASE STYLES ======== */
 header {
     display: grid;
     grid-template-columns: auto auto; 
@@ -73,4 +74,50 @@ footer ul {
 #contact {
     grid-column: 4;
     text-align: right;
+}
+
+
+@media (max-width: 375px) {
+    header {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    header nav ul {
+        grid-auto-flow: row;
+        justify-content: center;
+    }
+
+    .what_we_do {
+        grid-template-columns: auto;
+    }
+
+    #grid-container {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    footer {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    header {
+        grid-template-columns: auto auto;
+    }
+
+    .what_we_do {
+        grid-template-columns: auto auto; 
+    }
+
+    #grid-container {
+        grid-template-columns: auto auto auto auto; 
+    }
+
+    footer {
+        grid-template-columns: auto auto auto auto;
+    }
 }
