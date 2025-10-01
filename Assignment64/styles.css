@@ -1,0 +1,76 @@
+header {
+    display: grid;
+    grid-template-columns: auto auto; 
+    background-color: #333;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    justify-content: space-evenly; 
+    color: white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.what_we_do {
+    background-color: lightpink;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+.what_we_do article {
+    display: grid;
+    gap: 10px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    display: contents;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#logo {
+    grid-column: 1;
+}
+
+#copyright {
+    grid-column: 2;
+    text-align: center;
+}
+
+#privacy {
+    grid-column: 3;
+    text-align: center;
+}
+
+#contact {
+    grid-column: 4;
+    text-align: right;
+}
