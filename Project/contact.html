@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Work-Friendly Spots in Haarlem</title>
+	<meta name="author" content="Kateryna Zashcholkina">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png">
+</head>
+<body>
+	<header>
+		<h1>Work-Friendly Haarlem</h1>
+		<nav>
+			<ul>
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="cafes.html">Cafés</a></li>
+				<li><a href="libraries.html">Libraries</a></li>
+				<li><a href="coworking.html">Coworking Spaces</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="contact-form">
+		<h2>Stay in Touch</h2>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Your Salutation:<em>(required)</em></legend>
+				<label>
+					<input type="radio" name="salutation" value="Mr." required> Mr.
+				</label>
+				<label>
+					<input type="radio" name="salutation" value="Ms."> Ms.
+				</label>
+				<label>
+					<input type="radio" name="salutation" value="Other"> Other
+				</label>
+			</fieldset>
+
+			<label for="name">Your Name: <em>(required)</em></label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Your Email: <em>(required)</em></label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="phone">Your Phone Number: </label>
+			<input type="tel" id="phone" name="phone">
+
+			<label for="message">Your Question/Request: <em>(required)</em></label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Send">
+		</form>
+	</section>
+
+	<footer>
+		<p>&copy; 2025 Work-Friendly Haarlem. All rights reserved.</p>
+	</footer>
+</body>
+</html>
