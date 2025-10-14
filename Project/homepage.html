@@ -2,20 +2,34 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Work-Friendly Spots in Haarlem</title>
+		<title>Work-Friendly Haarlem</title>
 		<meta name="author" content="Kateryna Zashcholkina">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="icon" type="image/png" href="img/favicon-32x32.png">
 	</head>
 	<body>
 		<header>
+			<img src="img\Logo_maker_project__2___1_-removebg-preview.png" alt="Logo" class="logo">
 			<h1>Work-Friendly Haarlem</h1>
-			<nav>
+			<nav class="main-nav">
 				<ul>
 					<li><a href="homepage.html">Home</a></li>
 					<li><a href="cafes.html">Cafés</a></li>
-					<li><a href="libraries.html">Libraries</a></li>
-					<li><a href="coworking.html">Coworking Spaces</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<input type="checkbox" id="menu-toggle">
+			<label for="menu-toggle" class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+
+			<nav class="mobile-nav">
+				<ul>
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="cafes.html">Cafés</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
@@ -29,6 +43,7 @@
 					can work comfortably. It&rsquo;s all about finding the <em>right vibe</em>
 					and <strong>staying productive</strong>.
 				</p>
+				<a href="#FAQ" class="scroll-button">See our most asked questions</a>
 			</article>
 
 			<aside>
@@ -40,6 +55,29 @@
 					<figcaption>Freelancer enjoying work with laptop in a cozy café.</figcaption>
 				</figure>
 			</aside>
+		</section>
+
+		<h2>Discover Nearby Workspaces</h2>
+		<section class="options">
+			<a href="cafes.html" class="option-link">
+				<article class="option">
+					<img src="img/openart-image_Jot-7CKp_1758133659100_raw.jpg" alt="Café" class="option-img">
+					<h3 class="option-title">Cafés</h3>
+					<p>If you enjoy working in a cozy atmosphere filled with the aroma of coffee and soft background music, explore nearby cafés. They&rsquo;re perfect for sparking creativity, relaxing, and staying productive in comfort.</p>
+				</article>
+			</a>
+
+			<article class="option">
+				<img src="img/openart-image_XTeBqwWW_1758133946723_raw.jpg" alt="Library" class="option-img">
+				<h3 class="option-title">Libraries</h3>
+				<p>For deep focus and concentration, libraries are the ideal choice. Quiet spaces, comfortable seating, and access to endless knowledge create the perfect environment to study or work without distractions</p>
+			</article>
+
+			<article class="option">
+				<img src="img/openart-image_IRUVPQxW_1758134320414_raw.jpg" alt="Coworking" class="option-img">
+				<h3 class="option-title">Coworking Spaces</h3>
+				<p>Prefer a more dynamic environment? Coworking spaces offer modern design, fast Wi-Fi, and a community of like-minded professionals — everything you need to bring your ideas to life and collaborate effectively</p>
+			</article>
 		</section>
 
 		<section class="featured-spots">
@@ -67,7 +105,10 @@
 			</table>
 		</section>
 
+		<section class ="cookies-message">This website uses cookies</section>
+
 		<footer>
+			<img src="img\Logo_maker_project__2___1_-removebg-preview.png" alt="Logo" class="logo">
 			<p>&copy; 2025 Work-Friendly Haarlem. All rights reserved.</p>
 		</footer>
 	</body>

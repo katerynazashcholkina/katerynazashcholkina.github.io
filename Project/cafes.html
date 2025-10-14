@@ -2,24 +2,38 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Work-Friendly Spots in Haarlem</title>
+        <title>Work-Friendly Haarlem</title>
         <meta name="author" content="Kateryna Zashcholkina">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="icon" type="image/png" href="img/favicon-32x32.png">
     </head>
     <body>
         <header>
+            <img src="img\Logo_maker_project__2___1_-removebg-preview.png" alt="Logo" class="logo">
             <h1>Work-Friendly Haarlem</h1>
-            <nav>
-                <ul>
-                    <li><a href="homepage.html">Home</a></li>
-                    <li><a href="cafes.html">Cafés</a></li>
-                    <li><a href="libraries.html">Libraries</a></li>
-                    <li><a href="coworking.html">Coworking Spaces</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+            <nav class="main-nav">
+				<ul>
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="cafes.html">Cafés</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<input type="checkbox" id="menu-toggle">
+			<label for="menu-toggle" class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+
+			<nav class="mobile-nav">
+				<ul>
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="cafes.html">Cafés</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
         <main>
             <section class="container">
                 <figure class="left">
@@ -80,6 +94,7 @@
         </main>
         
         <footer>
+            <img src="img\Logo_maker_project__2___1_-removebg-preview.png" alt="Logo" class="logo">
             <p>&copy; 2025 Work-Friendly Haarlem. All rights reserved.</p>
         </footer>
     </body>
