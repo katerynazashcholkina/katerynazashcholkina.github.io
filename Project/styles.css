@@ -1,10 +1,11 @@
     @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
     * {
-        box-sizing: border-box;
+        box-sizing: border-box;/* Include padding and border in the total width and height */
         margin: 0;
         padding: 0;
     }
 
+    /* Body base styles */
     body {
         font-family: 'Arial', sans-serif;
         font-size: 1rem; 
@@ -22,7 +23,6 @@
         padding-bottom: 8rem;
     }
 
-
     .intro article {
         flex: 0 0 55%;
     }
@@ -37,12 +37,10 @@
         margin-top: 0.1rem; 
     }
 
-
     .intro aside {
         flex: 0 0 40%;
         text-align: center;
     }
-
 
     .right-img {
         max-width: 100%;
@@ -63,6 +61,7 @@
         margin-bottom: 1rem;
         text-align: center; 
     }
+
     h2 { 
         font-size: 2.5rem; 
         line-height: 120%;
@@ -82,9 +81,11 @@
     a:hover { 
         text-decoration: underline; 
     }
+
     a:visited {
         color: #E6D7C4;
     }
+
     a:active {
         color: #AFC343;
     }
@@ -106,6 +107,7 @@
         width: 75px;
         height: auto;
     }
+
     nav ul {
         list-style: none;
         display: flex;
@@ -133,7 +135,6 @@
         margin: 0 auto; 
         display: flex;
         flex-wrap: wrap;
-
     }
 
     figure img {
@@ -141,11 +142,6 @@
         height: auto;
         display: block;
         margin: 0 auto;
-    }
-
-    img.float-left {
-        float: left;
-        margin: 0 1rem 1rem 0;
     }
 
     figcaption {
@@ -160,6 +156,7 @@
         align-items: center;
         flex-direction: column;
     }
+
     form {
         max-width: 700px;
         margin: 0 auto;
@@ -259,7 +256,8 @@
     }
 
     table {
-        border-collapse: collapse;
+        display : none;
+        border-collapse: collapse; /* Merge table borders into a single line */
         width: 60%; 
         margin: 2rem 0;
     }
@@ -322,7 +320,7 @@
         position: absolute;
         top: 6rem;
         right: 1rem;
-        display: none;
+        display: none;/* Hidden by default */
         flex-direction: column;
         justify-content: space-between;
         width: 30px;
@@ -332,7 +330,7 @@
     }
 
     .hamburger span {
-        display: block;
+        display: block;/* Make each bar a block element */
         height: 3px;
         background-color: #fff;
         border-radius: 2px;
@@ -373,6 +371,7 @@
     }
 
     .cookies-message {
+        display : none;
         position: fixed;    
         bottom: 20px;      
         left: 50%;          
@@ -403,7 +402,6 @@
         padding: 15px;
         border-radius: 12px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .option:hover {
@@ -534,6 +532,5 @@
         .option p {
             font-size: 1rem;
             line-height: 1.6;
-        }
-            
+        }    
     }
