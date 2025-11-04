@@ -539,7 +539,7 @@
         width: 100%;         
         min-height: 150px;  
         padding: 1rem;        
-        resize: vertical;     /* Allow vertical resize only */
+        resize: vertical;/* Allow vertical resize only */
     }
 
     form legend, label {
